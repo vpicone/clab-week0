@@ -20,3 +20,9 @@ img {
 main div {
   margin-right: 40px;
 }
+
+a {
+    color: #78a9ff;
+    text-align: center;
+    display: block;
+}
