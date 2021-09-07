@@ -22,7 +22,14 @@ main div {
 }
 
 a {
-    color: #78a9ff;
+  color: #78a9ff;
+  text-align: center;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  main {
+    flex-direction: column-reverse;
     text-align: center;
-    display: block;
+  }
 }
