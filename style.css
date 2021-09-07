@@ -34,3 +34,14 @@ a {
     margin: 5vh auto;
   }
 }
+
+@media (prefers-color-scheme: light) {
+  html,
+  body {
+    color: #171717;
+    background-color: #fafafa;
+  }
+  a {
+    color: #0f62fe;
+  }
+}
